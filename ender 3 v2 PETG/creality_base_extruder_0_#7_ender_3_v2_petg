@@ -1,0 +1,31 @@
+[general]
+version = 4
+name = Ender 3 v2 PETG
+definition = creality_base
+
+[metadata]
+quality_type = standard
+intent_category = default
+type = quality_changes
+position = 0
+setting_version = 15
+
+[values]
+bottom_layers = 6
+cool_fan_enabled = True
+cool_fan_speed = 20
+infill_pattern = grid
+infill_sparse_density = 20
+line_width = 0.38
+material_final_print_temperature = 245
+material_initial_print_temperature = 245
+material_print_temperature = 245
+material_print_temperature_layer_0 = 245
+retraction_amount = 6.5
+speed_print = 55
+top_bottom_thickness = 0.6
+top_layers = 6
+wall_thickness = 1.6
+z_seam_type = sharpest_corner
+zig_zaggify_infill = True
+

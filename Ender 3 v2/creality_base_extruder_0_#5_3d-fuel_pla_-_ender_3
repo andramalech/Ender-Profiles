@@ -1,0 +1,22 @@
+[general]
+version = 4
+name = Ender 3 v2
+definition = creality_base
+
+[metadata]
+quality_type = standard
+type = quality_changes
+position = 0
+intent_category = default
+setting_version = 15
+
+[values]
+infill_pattern = gyroid
+infill_sparse_density = 15
+line_width = 0.38
+material_print_temperature = 205
+speed_print = 60
+top_bottom_thickness = 0.6
+wall_thickness = 1.6
+zig_zaggify_infill = True
+

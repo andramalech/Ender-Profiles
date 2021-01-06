@@ -1,0 +1,30 @@
+[general]
+version = 4
+name = Ender 3 v2 ABS
+definition = creality_base
+
+[metadata]
+intent_category = default
+setting_version = 15
+position = 0
+quality_type = standard
+type = quality_changes
+
+[values]
+bottom_layers = 6
+cool_fan_enabled = False
+infill_pattern = grid
+infill_sparse_density = 20
+line_width = 0.38
+material_final_print_temperature = 245
+material_initial_print_temperature = 245
+material_print_temperature = 245
+material_print_temperature_layer_0 = 245
+retraction_amount = 4
+speed_print = 55
+top_bottom_thickness = 0.6
+top_layers = 6
+wall_thickness = 1.2
+z_seam_type = sharpest_corner
+zig_zaggify_infill = True
+
